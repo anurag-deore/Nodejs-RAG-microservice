@@ -42,6 +42,29 @@ This project is a microservices-based application that allows users to upload CS
 
 ---
 
+## **Current Status**
+
+### Completed
+
+- **File Upload Service**: Uploading CSV files, generating embeddings, and storing in Qdrant.
+- **AI Query Service**: Using an AI model to answer user queries.
+- **Data Prep Service**: Reading CSV files, generating embeddings, and storing in Qdrant.
+- **Redis Pub/Sub**: (Running in docker) Managing event-driven communication between services.
+
+### In Progress
+
+- **API Gateway**: Centralized entry point for the frontend and services.
+- **Frontend (React + TypeScript)**: Providing a user interface for uploading files and querying data.
+
+## **Future Enhancements**
+
+- Add support to retrieve Actual Data from the CSV file.
+- Optimize query response ranking with hybrid search.
+- Add support for Contextual Querying.
+- Add support for different AI models.
+
+---
+
 ## **Installation & Setup**
 
 ### **Prerequisites**
@@ -131,13 +154,6 @@ SUBSCRIBE dataset_processing
 ```
 
 ---
-
-## **Future Enhancements**
-
-- Add user authentication and access control.
-- Implement cloud-based storage for uploaded files.
-- Enhance AI Query Service with RAG (Retrieval-Augmented Generation).
-- Optimize query response ranking with hybrid search.
 
 ---
 
