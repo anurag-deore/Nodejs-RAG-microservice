@@ -55,6 +55,8 @@ This project is a microservices-based application that allows users to upload CS
 
 - **API Gateway**: Centralized entry point for the frontend and services.
 - **Frontend (React + TypeScript)**: Providing a user interface for uploading files and querying data.
+- **Docker Compose**: Configuring Docker containers for the microservices.
+- **Kubernetes**: Deploying the microservices in a Kubernetes cluster.
 
 ## **Future Enhancements**
 
