@@ -1,0 +1,13 @@
+**/env
+**/node_modules
+**/dist
+**/build
+**/target
+**/coverage
+**/*.log
+**/*.tmp
+**/*.cache
+**/package-lock.json
+**/yarn.lock
+**/__tests__
+**/uploads
